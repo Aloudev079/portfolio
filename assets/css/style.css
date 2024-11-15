@@ -22,7 +22,7 @@
   height: 100%;
   border-radius: 20px;
   position: relative;
-  background-color: #00012B;
+  background-color: #e917de;
   box-shadow: 1px 1px 2px #0493f4, -1px -1px 2px #0493f4;
   display: inline-block;
   margin-right: 20px;
@@ -37,7 +37,7 @@
   height: 80px;
   border-radius: 20px;
   z-index: 10;
-  background-color: #00012B;
+  background-color: #e917de;
   padding: 10px;
   box-shadow: 1px 1px 2px #0493f4,inset -1px -1px 2px #0493f4;
 
@@ -125,7 +125,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #bc0ccc;
 }
 
 /* pre loader start */
@@ -217,8 +217,8 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color:#e917de;
+  border-bottom: 0.2rem solid #e917de;
   padding: 0.5rem 0;
 }
 
@@ -228,7 +228,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #e917de;
   display: none;
 }
 
@@ -245,7 +245,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color:#e917de;
   }
 
   header .navbar ul {
@@ -318,7 +318,7 @@ header .navbar ul li a:hover {
 .home .content {
   flex: 1 1 40rem;
   padding-top: 1rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 .home .image {
@@ -340,8 +340,8 @@ header .navbar ul li a:hover {
 
 .home .content h2 {
   font-size: 4.5rem;
-  font-weight: 800;
-  color: #002057;
+  font-weight: bold;
+  color: #e917de;
 }
 
 .home .content h2 span {
@@ -417,8 +417,8 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
+  color: ;
+  background-color: #0493f4;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -657,7 +657,7 @@ header .navbar ul li a:hover {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
+  background: #e917de;
   transition: 0.2s;
 }
 
@@ -713,6 +713,7 @@ header .navbar ul li a:hover {
   background: #e5ecfb;
   min-height: 80vh;
 }
+
 
 .education .qoute {
   font-size: 1.5rem;

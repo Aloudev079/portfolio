@@ -84,8 +84,8 @@ header .navbar ul li a{
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #00d1b2;
+  border-bottom: .2rem solid #00d1b2;
   padding: .5rem 0;
 }
 /* navbar ends */

@@ -97,7 +97,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio NiangPro";
+            document.title = "Portfolio Aloudev";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
